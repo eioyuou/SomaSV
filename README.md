@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo/logo.svg" alt="SomaSV Logo" width="600">
+  <img src="logo/logo.svg.png" alt="SomaSV Logo" width="600">
 </p>
 
 ---
