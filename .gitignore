@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+output/
+*.bam
+*.bai
+*.vcf
+*.fastq
+*.fasta
+*.fa
+*.fa.fai
+*.sam
+
+# Temp
+*.tmp
+*.log
