@@ -1,7 +1,17 @@
 <p align="center">
   <img src="logo/logo.svg" alt="SomaSV Logo" style="max-width: 100%; height: auto;" width="360">
 </p>
+<p align="center">
+  <strong> Cost-effective hybrid long- and short-read sequencing enables accurate somatic structural variant detection </strong>
+</p>
 
+<p align="center">
+  <a href="https://github.com/eioyuou/SomaSV/releases"><img src="https://img.shields.io/badge/version-0.0.1-blue.svg" alt="Version"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-≥3.8-green.svg" alt="Python"></a>
+  <a href="https://github.com/eioyuou/SomaSV/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License"></a>
+  <a href="https://github.com/eioyuou/SomaSV"><img src="https://img.shields.io/badge/platform-ONT%20%2F%20HiFi-orange.svg" alt="Platform"></a>
+  <a href="https://github.com/eioyuou/SomaSV"><img src="https://img.shields.io/badge/mode-long--read%20%2F%20hybrid-red.svg" alt="Mode"></a>
+</p>
 ---
 
 ## Overview
