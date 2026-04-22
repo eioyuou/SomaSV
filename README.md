@@ -2,7 +2,7 @@
   <img src="logo/logo.svg" alt="SomaSV Logo" style="max-width: 100%; height: auto;" width="360">
 </p>
 <p align="center">
-  <strong> Cost-effective hybrid long- and short-read sequencing enables accurate somatic structural variant detection </strong>
+  <strong> Systematic integration of long- and short-read sequencing improves somatic structural variant detection </strong>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**SomaSV** is a hybrid sequencing framework for high-accuracy somatic structural variant (SSV) detection from long-read sequencing data. By integrating tumor long-read data with matched normal data composed of both long-read and short-read sequencing, SomaSV achieves superior detection performance while significantly reducing sequencing costs.
+**SomaSV** is a hybrid method for high-accuracy somatic structural variant (SSV) detection from long-read sequencing data. By integrating tumor long-read data with matched normal data composed of both long-read and short-read sequencing, SomaSV achieves superior detection performance while significantly reducing sequencing costs.
 
 SomaSV supports two operating modes:
 
@@ -132,7 +132,7 @@ results/final_somatic_variants.vcf
 
 If you use SomaSV in your research, please cite:
 
-> **Cost-effective hybrid long- and short-read sequencing enables accurate somatic structural variant detection**
+> **Systematic integration of long- and short-read sequencing improves somatic structural variant detection**
 >
 > *Manuscript in preparation*
 
