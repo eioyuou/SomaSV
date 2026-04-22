@@ -23,7 +23,6 @@ SomaSV supports two operating modes:
 - **Hybrid mode** — combines 30× tumor long-read, 10× normal long-read, and 30× normal short-read data for cost-effective, high-accuracy somatic SV calling.
 - **Long-read-only mode** — uses tumor and matched normal long-read data without short-read input.
 
-Comprehensive benchmarking demonstrates that SomaSV **outperforms current state-of-the-art methods by more than 13% in F1 score** while **reducing sequencing costs by approximately 19%**. Furthermore, SomaSV identifies clinically relevant cancer-associated genes, including *CLDN4* and *ROBO2*, highlighting its potential for discovering valuable biomarkers to support early cancer screening and diagnosis.
 
 ## Key Features
 
