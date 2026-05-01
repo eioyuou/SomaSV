@@ -3,9 +3,7 @@ import pysam
 import numpy as np
 from somasv.cigar_parsing import parse_cigar_string
 
-# 将原代码中从 SVET_UNKNOWN = 0 开始，到 collect_evidence_reads_BND_short 结束的
-# 所有函数和常量原封不动放在此文件中。
-# （所有 _short 后缀的函数、常量 SVET_* 等）
+
 
 
 SVET_UNKNOWN = 0
