@@ -137,30 +137,30 @@ The demo files are small subset BAMs derived from chromosome 22 of sample HG008 
 
 Example demo files:
 
-- `data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam`
-- `data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam`
-- `data/demo/HG008_30X_illumina_chr22_normal_demo_subset.bam`
+- `data/demo/HG008_30X_HiFi_chr20_tumor_demo_subset.bam`
+- `data/demo/HG008_10X_HiFi_chr20_normal_demo_subset.bam`
+- `data/demo/HG008_30X_illumina_chr20_normal_demo_subset.bam`
 
 ### Run the demo
 
 #### Hybrid mode
 
     python main.py \
-        --tumor-bam data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam \
-        --normal-bam data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam \
+        --tumor-bam data/demo/HG008_30X_HiFi_chr20_tumor_demo_subset.bam \
+        --normal-bam data/demo/HG008_10X_HiFi_chr20_normal_demo_subset.bam \
         --reference ref.fasta \
         --output-dir demo_results/ \
         --sample-platform HIFI \
         --mode hybrid \
-        --short-read-normal-bam data/demo/HG008_30X_illumina_chr22_normal_demo_subset.bam \
+        --short-read-normal-bam data/demo/HG008_30X_illumina_chr20_normal_demo_subset.bam \
         --short-read-coverage 30 \
         --pon-vcf gnomad.v4.1.sv.sites.vcf.gz
 
 #### Long-read-only mode
 
     python main.py \
-        --tumor-bam data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam \
-        --normal-bam data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam \
+        --tumor-bam data/demo/HG008_30X_HiFi_chr20_tumor_demo_subset.bam \
+        --normal-bam data/demo/HG008_10X_HiFi_chr20_normal_demo_subset.bam \
         --reference ref.fasta \
         --output-dir demo_results_long_read_only/ \
         --sample-platform HIFI \
