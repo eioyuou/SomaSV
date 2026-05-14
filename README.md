@@ -64,7 +64,8 @@ This hybrid design reduces overall sequencing cost by approximately **19%** comp
 This mode uses standard matched tumor–normal long-read sequencing without short-read data. Coverage can be adjusted based on project requirements and budget.
 
 ## Quick Start
-
+The commands below show the standard usage of SomaSV with user-provided input files.
+For a minimal runnable example using the bundled demo dataset, see [Demo](#demo).
 ### Required Data
 
 | File | Description |
@@ -99,7 +100,7 @@ python main.py \
     --reference ref.fasta \
     --output-dir results/ \
     --sample-platform ONT \
-    --mode long-read-only \
+    --mode long-read-only 
 ```
 
 ### Parameters
@@ -124,8 +125,59 @@ The main output is a standard VCF file located at:
 results/final_somatic_variants.vcf
 ```
 
+## Demo
 
-## Pipeline Overview
+A lightweight demo dataset is provided in `data/demo/` for quick testing and validation of SomaSV.
+
+These demo files can be used directly with the example commands below to verify installation and basic pipeline execution.
+
+### Demo data
+
+The demo files are small subset BAMs derived from chromosome 22 of sample HG008 and are intended for demonstration purposes only. They do not represent complete sequencing datasets.
+
+Example demo files:
+
+- `data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam`
+- `data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam`
+- `data/demo/HG008_30X_illumina_chr22_normal_demo_subset.bam`
+
+### Run the demo
+
+#### Hybrid mode
+
+    python main.py \
+        --tumor-bam data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam \
+        --normal-bam data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam \
+        --reference ref.fasta \
+        --output-dir demo_results/ \
+        --sample-platform HIFI \
+        --mode hybrid \
+        --short-read-normal-bam data/demo/HG008_30X_illumina_chr22_normal_demo_subset.bam \
+        --short-read-coverage 30 \
+        --pon-vcf gnomad.v4.1.sv.sites.vcf.gz
+
+#### Long-read-only mode
+
+    python main.py \
+        --tumor-bam data/demo/HG008_30X_HiFi_chr22_tumor_demo_subset.bam \
+        --normal-bam data/demo/HG008_10X_HiFi_chr22_normal_demo_subset.bam \
+        --reference ref.fasta \
+        --output-dir demo_results_long_read_only/ \
+        --sample-platform HIFI \
+        --mode long-read-only
+
+### Demo output
+
+The main output VCF will be written to:
+
+    demo_results/final_somatic_variants.vcf
+
+### Notes
+
+- The demo BAM files contain only a small subset region from chromosome 22.
+- These files are intended for demonstration purposes only and do not represent complete datasets.
+- For real analyses, please use complete datasets and an appropriate reference genome and PoN resource.
+
 
 ## Citation
 
@@ -137,6 +189,7 @@ If you use SomaSV in your research, please cite:
 
 ## License
 
+This project is licensed under the MIT License.
 
 ## Contact
 
