@@ -27,7 +27,7 @@ These files are small demo datasets prepared for visualization, testing, and met
 ## Notes
 
 - Reference genome: GRCh38
-- Region: chromosome 22
+- Region: chr22:20,000,000-20,100,000
 - Sample: HG008
 - Platforms: PacBio HiFi and Illumina
 - Use case: demo data for method testing
