@@ -44,7 +44,7 @@ These files are small demo datasets prepared for visualization, testing, and met
 ## Notes
 
 - Reference genome: GRCh38
-- Region: chr20:38,000,000-41,000,000
+- Region: chr20:38,400,000-39,000,000
 - Sample: HG008
 - Platforms: PacBio HiFi and Illumina
 - Tool: SomaSV
