@@ -1,0 +1,264 @@
+##fileformat=VCFv4.2
+##source=SomaticHunter0.0.1
+##contig=<ID=chr1,length=248956422,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr2,length=242193529,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr3,length=198295559,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr4,length=190214555,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr5,length=181538259,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr6,length=170805979,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr7,length=159345973,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr8,length=145138636,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr9,length=138394717,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr10,length=133797422,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr11,length=135086622,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr12,length=133275309,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr13,length=114364328,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14,length=107043718,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr15,length=101991189,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr16,length=90338345,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr17,length=83257441,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr18,length=80373285,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr19,length=58617616,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr20,length=64444167,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr21,length=46709983,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22,length=50818468,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrX,length=156040895,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrY,length=57227415,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrM,length=16569,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270706v1_random,length=175055,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270707v1_random,length=32032,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270708v1_random,length=127682,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270709v1_random,length=66860,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270710v1_random,length=40176,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270711v1_random,length=42210,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270712v1_random,length=176043,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270713v1_random,length=40745,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr1_KI270714v1_random,length=41717,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr2_KI270715v1_random,length=161471,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr2_KI270716v1_random,length=153799,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr3_GL000221v1_random,length=155397,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr4_GL000008v2_random,length=209709,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr5_GL000208v1_random,length=92689,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr9_KI270717v1_random,length=40062,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr9_KI270718v1_random,length=38054,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr9_KI270719v1_random,length=176845,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr9_KI270720v1_random,length=39050,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr11_KI270721v1_random,length=100316,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_GL000009v2_random,length=201709,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_GL000225v1_random,length=211173,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_KI270722v1_random,length=194050,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_GL000194v1_random,length=191469,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_KI270723v1_random,length=38115,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_KI270724v1_random,length=39555,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_KI270725v1_random,length=172810,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr14_KI270726v1_random,length=43739,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr15_KI270727v1_random,length=448248,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr16_KI270728v1_random,length=1872759,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr17_GL000205v2_random,length=185591,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr17_KI270729v1_random,length=280839,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr17_KI270730v1_random,length=112551,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270731v1_random,length=150754,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270732v1_random,length=41543,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270733v1_random,length=179772,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270734v1_random,length=165050,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270735v1_random,length=42811,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270736v1_random,length=181920,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270737v1_random,length=103838,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270738v1_random,length=99375,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chr22_KI270739v1_random,length=73985,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrY_KI270740v1_random,length=37240,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270302v1,length=2274,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270304v1,length=2165,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270303v1,length=1942,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270305v1,length=1472,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270322v1,length=21476,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270320v1,length=4416,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270310v1,length=1201,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270316v1,length=1444,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270315v1,length=2276,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270312v1,length=998,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270311v1,length=12399,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270317v1,length=37690,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270412v1,length=1179,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270411v1,length=2646,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270414v1,length=2489,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270419v1,length=1029,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270418v1,length=2145,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270420v1,length=2321,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270424v1,length=2140,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270417v1,length=2043,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270422v1,length=1445,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270423v1,length=981,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270425v1,length=1884,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270429v1,length=1361,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270442v1,length=392061,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270466v1,length=1233,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270465v1,length=1774,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270467v1,length=3920,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270435v1,length=92983,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270438v1,length=112505,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270468v1,length=4055,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270510v1,length=2415,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270509v1,length=2318,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270518v1,length=2186,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270508v1,length=1951,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270516v1,length=1300,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270512v1,length=22689,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270519v1,length=138126,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270522v1,length=5674,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270511v1,length=8127,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270515v1,length=6361,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270507v1,length=5353,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270517v1,length=3253,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270529v1,length=1899,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270528v1,length=2983,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270530v1,length=2168,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270539v1,length=993,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270538v1,length=91309,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270544v1,length=1202,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270548v1,length=1599,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270583v1,length=1400,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270587v1,length=2969,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270580v1,length=1553,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270581v1,length=7046,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270579v1,length=31033,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270589v1,length=44474,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270590v1,length=4685,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270584v1,length=4513,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270582v1,length=6504,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270588v1,length=6158,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270593v1,length=3041,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270591v1,length=5796,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270330v1,length=1652,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270329v1,length=1040,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270334v1,length=1368,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270333v1,length=2699,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270335v1,length=1048,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270338v1,length=1428,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270340v1,length=1428,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270336v1,length=1026,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270337v1,length=1121,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270363v1,length=1803,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270364v1,length=2855,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270362v1,length=3530,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270366v1,length=8320,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270378v1,length=1048,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270379v1,length=1045,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270389v1,length=1298,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270390v1,length=2387,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270387v1,length=1537,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270395v1,length=1143,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270396v1,length=1880,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270388v1,length=1216,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270394v1,length=970,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270386v1,length=1788,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270391v1,length=1484,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270383v1,length=1750,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270393v1,length=1308,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270384v1,length=1658,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270392v1,length=971,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270381v1,length=1930,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270385v1,length=990,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270382v1,length=4215,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270376v1,length=1136,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270374v1,length=2656,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270372v1,length=1650,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270373v1,length=1451,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270375v1,length=2378,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270371v1,length=2805,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270448v1,length=7992,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270521v1,length=7642,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000195v1,length=182896,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000219v1,length=179198,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000220v1,length=161802,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000224v1,length=179693,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270741v1,length=157432,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000226v1,length=15008,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000213v1,length=164239,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270743v1,length=210658,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270744v1,length=168472,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270745v1,length=41891,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270746v1,length=66486,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270747v1,length=198735,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270748v1,length=93321,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270749v1,length=158759,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270750v1,length=148850,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270751v1,length=150742,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270752v1,length=27745,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270753v1,length=62944,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270754v1,length=40191,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270755v1,length=36723,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270756v1,length=79590,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270757v1,length=71251,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000214v1,length=137718,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_KI270742v1,length=186739,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000216v2,length=176608,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrUn_GL000218v1,length=161147,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=chrEBV,length=171823,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=MAP2K3_chr17_22578583_22605165,length=26582,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KCNJ18_chr17_22629421_22688415,length=58994,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr21_7687010_7731520,length=44510,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr15_6020392_6062903,length=42511,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_14464876_14502703,length=37827,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_14211849_14228603,length=16754,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_10688343_10754814,length=66471,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_10744786_10790087,length=45301,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_11526357_11569988,length=43631,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_11559977_11592630,length=32653,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr13_14408161_14474907,length=66746,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr14_3553442_3620349,length=66907,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr14_3610318_3640421,length=30103,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr15_5960377_6027329,length=66952,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr2_89596961_89613143,length=16182,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr2_90170767_90210396,length=39629,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr21_7659652_7674726,length=15074,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr21_8616365_8659521,length=43156,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr21_8649510_8682182,length=32672,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr22_6626735_6693166,length=66431,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr22_6683135_6713219,length=30084,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr22_11126384_11167180,length=40796,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##contig=<ID=KMT2C_chr22_11157169_11189815,length=32646,assembly=GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta>
+##SomaticHunter_args=""
+##reference={/home/gaoruntian/somatic_data/data_somatic/HG008/GRCh38/GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18.fasta}
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=MATEID,Number=1,Type=String,Description="ID of mate breakends">
+##INFO=<ID=NORMAL_READ_SUPPORT,Number=1,Type=Integer,Description="Number of SV supporting normal reads">
+##INFO=<ID=TUMOR_READ_SUPPORT,Number=1,Type=Integer,Description="Number of SV supporting tumor reads">
+##INFO=<ID=NORMAL_ALN_SUPPORT,Number=1,Type=Integer,Description="Number of SV supporting normal alignments">
+##INFO=<ID=TUMOR_ALN_SUPPORT,Number=1,Type=Integer,Description="Number of SV supporting tumor alignments">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length of the SV">
+##INFO=<ID=TUMOR_DP_BEFORE,Number=2,Type=Integer,Description="Local tumor depth in bin before the breakpoint(s) of an SV">
+##INFO=<ID=TUMOR_DP_AT,Number=2,Type=Integer,Description="Local tumor depth in bin at the breakpoint(s) of an SV">
+##INFO=<ID=TUMOR_DP_AFTER,Number=2,Type=Integer,Description="Local tumor depth in bin after the breakpoint(s) of an SV">
+##INFO=<ID=NORMAL_DP_BEFORE,Number=2,Type=Integer,Description="Local normal depth in bin before the breakpoint(s) of an SV">
+##INFO=<ID=NORMAL_DP_AT,Number=2,Type=Integer,Description="Local normal depth in bin at the breakpoint(s) of an SV">
+##INFO=<ID=NORMAL_DP_AFTER,Number=2,Type=Integer,Description="Local normal depth in bin after the breakpoint(s) of an SV">
+##INFO=<ID=TUMOR_AF,Number=2,Type=Float,Description="Allele-fraction (AF) of tumor variant-supporting reads to tumor read depth (DP) at breakpoint">
+##INFO=<ID=NORMAL_AF,Number=2,Type=Float,Description="Allele-fraction (AF) of normal variant-supporting reads to normal read depth (DP) at breakpoint">
+##INFO=<ID=BP_NOTATION,Number=1,Type=String,Description="+- notation format of variant (same for paired breakpoints)">
+##INFO=<ID=SOURCE,Number=1,Type=String,Description="Source of evidence for a breakpoint - CIGAR (INS, DEL, SOFTCLIP), SUPPLEMENTARY or mixture">
+##INFO=<ID=CLUSTERED_READS_TUMOR,Number=1,Type=Integer,Description="Total number of tumor reads clustered at this location of any SV type">
+##INFO=<ID=CLUSTERED_READS_NORMAL,Number=1,Type=Integer,Description="Total number of normal reads clustered at this location of any SV type">
+##INFO=<ID=TUMOR_ALT_HP,Number=3,Type=Integer,Description="Counts of SV-supporting reads belonging to each haplotype in the tumor sample (1/2/NA)">
+##INFO=<ID=TUMOR_PS,Number=.,Type=String,Description="List of unique phase sets from the tumor supporting reads">
+##INFO=<ID=NORMAL_ALT_HP,Number=3,Type=Integer,Description="Counts of reads belonging to each haplotype in the normal sample (1/2/NA)">
+##INFO=<ID=NORMAL_PS,Number=.,Type=String,Description="List of unique phase sets from the normal supporting reads">
+##INFO=<ID=TUMOR_TOTAL_HP_AT,Number=3,Type=Integer,Description="Counts of all reads at SV location belonging to each haplotype in the tumor sample (1/2/NA)">
+##INFO=<ID=NORMAL_TOTAL_HP_AT,Number=3,Type=Integer,Description="Counts of all reads at SV location belonging to each haplotype in the normal sample (1/2/NA)">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the structural variant">
+##INFO=<ID=ORIGIN_STARTS_STD_DEV,Number=1,Type=Float,Description="Originating cluster value for starts_std_dev">
+##INFO=<ID=ORIGIN_MAPQ_MEAN,Number=1,Type=Float,Description="Originating cluster value for mapq_mean">
+##INFO=<ID=ORIGIN_EVENT_SIZE_STD_DEV,Number=1,Type=Float,Description="Originating cluster value for event_size_std_dev">
+##INFO=<ID=ORIGIN_EVENT_SIZE_MEDIAN,Number=1,Type=Float,Description="Originating cluster value for event_size_median">
+##INFO=<ID=ORIGIN_EVENT_SIZE_MEAN,Number=1,Type=Float,Description="Originating cluster value for event_size_mean">
+##INFO=<ID=END_STARTS_STD_DEV,Number=1,Type=Float,Description="End cluster value for starts_std_dev">
+##INFO=<ID=END_MAPQ_MEAN,Number=1,Type=Float,Description="End cluster value for mapq_mean">
+##INFO=<ID=END_EVENT_SIZE_STD_DEV,Number=1,Type=Float,Description="End cluster value for event_size_std_dev">
+##INFO=<ID=END_EVENT_SIZE_MEDIAN,Number=1,Type=Float,Description="End cluster value for event_size_median">
+##INFO=<ID=END_EVENT_SIZE_MEAN,Number=1,Type=Float,Description="End cluster value for event_size_mean">
+##INFO=<ID=CLASS,Number=1,Type=String,Description="Variant class prediction from legacy strict/lenient filters">
+##INFO=<ID=CONFIDENCE_SCORE,Number=1,Type=Float,Description="Confidence score based on multiple evidence sources">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	sample_name
+chr20	38428242	ID_0_1	C	[chr20:38429605[C	.	PASS	SVTYPE=BND;NORMAL_READ_SUPPORT=0;TUMOR_READ_SUPPORT=10;NORMAL_ALN_SUPPORT=0;TUMOR_ALN_SUPPORT=10;SVLEN=1363;TUMOR_DP_BEFORE=45,64;TUMOR_DP_AT=64,83;TUMOR_DP_AFTER=64,83;NORMAL_DP_BEFORE=9,10;NORMAL_DP_AT=9,10;NORMAL_DP_AFTER=9,10;TUMOR_AF=0.156,0.12;NORMAL_AF=0.0,0.0;BP_NOTATION=--;SOURCE=SUPPLEMENTARY;CLUSTERED_READS_TUMOR=10;CLUSTERED_READS_NORMAL=0;TUMOR_ALT_HP=0,0,10;NORMAL_ALT_HP=0,0,0;TUMOR_TOTAL_HP_AT=17,39,27;NORMAL_TOTAL_HP_AT=5,5,0;ORIGIN_STARTS_STD_DEV=0.0;ORIGIN_MAPQ_MEAN=60.0;ORIGIN_EVENT_SIZE_STD_DEV=0.0;ORIGIN_EVENT_SIZE_MEDIAN=1363.0;ORIGIN_EVENT_SIZE_MEAN=1363.0;END_STARTS_STD_DEV=0.0;END_MAPQ_MEAN=60.0;END_EVENT_SIZE_STD_DEV=0.0;END_EVENT_SIZE_MEDIAN=1363.0;END_EVENT_SIZE_MEAN=1363.0	GT	0/1
+chr20	38429605	ID_0_2	C	[chr20:38428242[C	.	PASS	SVTYPE=BND;NORMAL_READ_SUPPORT=0;TUMOR_READ_SUPPORT=10;NORMAL_ALN_SUPPORT=0;TUMOR_ALN_SUPPORT=10;SVLEN=1363;TUMOR_DP_BEFORE=45,64;TUMOR_DP_AT=64,83;TUMOR_DP_AFTER=64,83;NORMAL_DP_BEFORE=9,10;NORMAL_DP_AT=9,10;NORMAL_DP_AFTER=9,10;TUMOR_AF=0.156,0.12;NORMAL_AF=0.0,0.0;BP_NOTATION=--;SOURCE=SUPPLEMENTARY;CLUSTERED_READS_TUMOR=10;CLUSTERED_READS_NORMAL=0;TUMOR_ALT_HP=0,0,10;NORMAL_ALT_HP=0,0,0;TUMOR_TOTAL_HP_AT=17,39,27;NORMAL_TOTAL_HP_AT=5,5,0;ORIGIN_STARTS_STD_DEV=0.0;ORIGIN_MAPQ_MEAN=60.0;ORIGIN_EVENT_SIZE_STD_DEV=0.0;ORIGIN_EVENT_SIZE_MEDIAN=1363.0;ORIGIN_EVENT_SIZE_MEAN=1363.0;END_STARTS_STD_DEV=0.0;END_MAPQ_MEAN=60.0;END_EVENT_SIZE_STD_DEV=0.0;END_EVENT_SIZE_MEDIAN=1363.0;END_EVENT_SIZE_MEAN=1363.0	GT	0/1
